@@ -1,4 +1,0 @@
-@import '@fontsource-variable/big-shoulders';
-@import "tailwindcss" theme(static);
-@source "../views/";
-@source "../../app/";

@@ -1,0 +1,43 @@
+.header--main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-inline: 15px;
+
+  .brand img {
+    width: 170px;
+  }
+
+  .nav {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+
+    .cta a {
+      background-color: var(--primary-color-500);
+      border: solid 2px var(--primary-color-500);
+      color: var(--neutral-color-0);
+      padding: 12px 20px;
+      border-radius: 6px;
+      transition: all ease-in-out 250ms;
+
+      &:hover {
+        border-color: var(--secondary-color-500);
+        color: var(--neutral-color-0);
+        background-color: var(--secondary-color-500);
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--secondary-color-500);
+      transition: color ease-in-out 250ms;
+      font-size: 18px;
+
+      &:hover {
+        color: var(--primary-color-500);
+      }
+    }
+  }
+}

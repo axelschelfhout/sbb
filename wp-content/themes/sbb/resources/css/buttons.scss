@@ -1,0 +1,32 @@
+.wp-block-button {
+  padding-top: 12px;
+
+  &.is-style-outline a {
+    background-color: transparent;
+    color: var(--secondary-color-500);
+    border-color: var(--secondary-color-500);
+
+    &:hover {
+      color: var(--secondary-color-500);
+      background-color: transparent;
+      border-color: var(--primary-color-500);
+    }
+  }
+
+  a {
+    display: inline-block;
+    color: var(--neutral-color-0);
+    background-color: var(--primary-color-500);
+    border: solid 2px var(--primary-color-500);
+    transition: all ease-in-out 250ms;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+
+    &:hover {
+      border-color: var(--secondary-color-500);
+      color: var(--neutral-color-0);
+      background-color: var(--secondary-color-500);
+    }
+  }
+}

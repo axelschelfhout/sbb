@@ -1,3 +1,3 @@
-<footer class="content-info flex justify-between bg-[#043A20]">
+<footer class="content-info">
   @php(dynamic_sidebar('sidebar-footer'))
 </footer>

@@ -1,0 +1,28 @@
+body {
+  background-color: var(--primary-color-100);
+  margin: 0;
+}
+
+.sr-only {
+  display: none;
+}
+
+main, footer {
+  margin-inline: auto;
+  width: calc(100vw - 50px);
+  max-width: 1260px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+  img {
+    border-radius: 12px;
+  }
+}
+
+html {
+  overflow-x: hidden;
+}
