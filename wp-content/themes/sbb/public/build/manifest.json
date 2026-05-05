@@ -4,7 +4,7 @@
     "src": "editor.deps.json"
   },
   "resources/css/app.scss": {
-    "file": "assets/app-NVZEfk0H.css",
+    "file": "assets/app-CcB39CPc.css",
     "src": "resources/css/app.scss",
     "isEntry": true
   },
@@ -19,7 +19,7 @@
     "src": "resources/images/brand-logo.svg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-l0sNRNKZ.js",
+    "file": "assets/app-CMJKoX0y.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
