@@ -58,3 +58,7 @@ collect(['setup', 'filters'])
             );
         }
     });
+
+    add_filter('excerpt_more', function () {
+    return '... <a href="' . get_permalink() . '">' . __('Lees meer', 'sage') . '</a>';
+});
