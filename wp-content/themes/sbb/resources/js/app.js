@@ -22,16 +22,18 @@ document.addEventListener('DOMContentLoaded', () => {
   if (dropdowns) {
     dropdowns.forEach((link) => {
         link.addEventListener('click', (event) => {
-            event.preventDefault();
-            event.stopPropagation();
+            if (event.target.closest('.sub-menu') !== null && event.target.closest('.sub-menu').classList.contains('is-open')) {
+              event.preventDefault();
+              event.stopPropagation();
 
-            const dropdownMenu = link.querySelector('ul.sub-menu');
+              const dropdownMenu = link.querySelector('ul.sub-menu');
 
-            if (dropdownMenu) {
-              dropdownMenu.classList.toggle('is-open');
+              if (dropdownMenu) {
+                  dropdownMenu.classList.toggle('is-open');
 
-              const isExpanded = menu.classList.contains('is-open');
-              toggleButton.setAttribute('aria-expanded', isExpanded);
+                  const isExpanded = menu.classList.contains('is-open');
+                  toggleButton.setAttribute('aria-expanded', isExpanded);
+              }
             }
         });
     });
