@@ -45,7 +45,7 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 856px) {
     .navigation-toggle {
       border: none;
       background-color: var(--primary-color-500);
@@ -116,9 +116,14 @@
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 856px) {
     .navigation-toggle {
       display: none;
+    }
+
+
+    .sub-menu.is-open {
+      display: block;
     }
   }
 }
